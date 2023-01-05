@@ -1,8 +1,12 @@
+import "../Components/App.css";
+import Main from "./Main";
+import Todolist from "./Todolist";
+
 function App() {
   return (
     <div className="App">
-    
-    to - do app ract
+      <Main />
+      <Todolist />
     </div>
   );
 }
