@@ -26,7 +26,7 @@ class Main extends Component {
       <div className="headerDIv">
         <div className="todo-name">todos</div>
         <form className="checkbox-Div" onSubmit={this.handleSubmit}>
-          <input className="checkboxall-class" type="checkbox" />
+          {/* <input className="checkboxall-class" type="checkbox" /> */}
           <input
             className="css-inputBox"
             type="text"

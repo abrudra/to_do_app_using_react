@@ -1,4 +1,4 @@
-import { ADDING_TODO, DELETE_TODO } from "../type";
+import { ADDING_TODO,DELETE_TODO } from "../type";
 
 let initialState = {
   todos: [],

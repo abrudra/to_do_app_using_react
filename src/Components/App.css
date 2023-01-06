@@ -18,7 +18,14 @@ body {
   background: #e6e3e3;
 }
 
-.li-class {
+/* .checked-item,
+.not-checked-item {
+  margin-left: 10px;
+} */
+
+
+.checked-todo,
+.not-checked-todo {
   list-style: none;
   font-size: 30px;
   background-image: linear-gradient(
@@ -29,6 +36,10 @@ body {
   border-bottom: 1px solid #938888;
   line-height: 3rem;
 }
+.checked-todo {
+  text-decoration: line-through;
+}
+
 
 .line {
   text-decoration: line-through;
